@@ -1,30 +1,37 @@
+# Ignore Python virtual environments and cache
+.venv/
+__pycache__/
+**/.venv/
+**/__pycache__/
+*.egg-info/
+
 # Logs
-frontend/interface/logs
-frontend/interface/*.log
-frontend/interface/npm-debug.log*
-frontend/interface/yarn-debug.log*
-frontend/interface/yarn-error.log*
-frontend/interface/pnpm-debug.log*
-frontend/interface/lerna-debug.log*
+interface/logs
+interface/*.log
+interface/npm-debug.log*
+interface/yarn-debug.log*
+interface/yarn-error.log*
+interface/pnpm-debug.log*
+interface/lerna-debug.log*
 
-frontend/interface/node_modules
-frontend/interface/.DS_Store
-frontend/interface/dist
-frontend/interface/dist-ssr
-frontend/interface/coverage
-frontend/interface/*.local
+interface/node_modules
+interface/.DS_Store
+interface/dist
+interface/dist-ssr
+interface/coverage
+interface/*.local
 
-frontend/interface//cypress/videos/
-frontend/interface//cypress/screenshots/
+interface//cypress/videos/
+interface//cypress/screenshots/
 
 # Editor directories and files
-frontend/interface/.vscode/*
-frontend/interface/!.vscode/extensions.json
-frontend/interface/.idea
-frontend/interface/*.suo
-frontend/interface/*.ntvs*
-frontend/interface/*.njsproj
-frontend/interface/*.sln
-frontend/interface/*.sw?
+interface/.vscode/*
+interface/!.vscode/extensions.json
+interface/.idea
+interface/*.suo
+interface/*.ntvs*
+interface/*.njsproj
+interface/*.sln
+interface/*.sw?
 
-frontend/interface/*.tsbuildinfo
+interface/*.tsbuildinfo
