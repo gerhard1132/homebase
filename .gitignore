@@ -1,0 +1,30 @@
+# Logs
+frontend/interface/logs
+frontend/interface/*.log
+frontend/interface/npm-debug.log*
+frontend/interface/yarn-debug.log*
+frontend/interface/yarn-error.log*
+frontend/interface/pnpm-debug.log*
+frontend/interface/lerna-debug.log*
+
+frontend/interface/node_modules
+frontend/interface/.DS_Store
+frontend/interface/dist
+frontend/interface/dist-ssr
+frontend/interface/coverage
+frontend/interface/*.local
+
+frontend/interface//cypress/videos/
+frontend/interface//cypress/screenshots/
+
+# Editor directories and files
+frontend/interface/.vscode/*
+frontend/interface/!.vscode/extensions.json
+frontend/interface/.idea
+frontend/interface/*.suo
+frontend/interface/*.ntvs*
+frontend/interface/*.njsproj
+frontend/interface/*.sln
+frontend/interface/*.sw?
+
+frontend/interface/*.tsbuildinfo
